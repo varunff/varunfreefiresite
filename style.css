@@ -1,0 +1,123 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap'); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#mainimgbg{
+    height: 50%;
+}
+
+
+#mainimgbg1{
+    display: none;
+}
+
+.content-wrapperh1{
+    width:100%;
+    position: relative;
+    margin-top: -40%;
+
+}
+
+.content-wrapperh1 h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 170px;
+    font-family: 'Pirata One', cursive;
+}
+
+.content-wrapperh1 h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 80px;
+    font-family: 'Pirata One', cursive;
+}
+
+.hiddis{
+    height: 1%;
+    width: 13%;
+    margin-top: -3.1%;
+    visibility: hidden;
+}
+
+.aboutpage{
+    background-color: #192124;
+}
+
+.mainph2{
+    display: none;
+}
+
+.vidbymecnt{
+    background-color: black;
+}
+
+
+.footer{
+    background-color: rgb(59, 22, 119);
+}
+
+
+
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+#mainimgbg{
+    display: none;
+}
+
+#mainimgbg1{
+    display: block;
+    width: 100%;
+}
+
+.content-wrapperh1{
+    width:100%;
+    position: relative;
+    margin-top: -120%;
+    font-size: 20vw;
+}
+
+.content-wrapperh1 h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20vw;
+    font-family: 'Pirata One', cursive;
+}
+
+.content-wrapperh1 h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 8vw;
+    font-family: 'Pirata One', cursive;
+}
+
+.hiddis{
+    height: 10%;
+    width: 13%;
+    margin-top: 60%;
+    visibility: hidden;
+}
+
+
+.main2{
+    display: none;
+}
+
+.mainph2{
+    display: block;
+}
+
+
+
+
+
+
+  }
